@@ -57,7 +57,10 @@ public class Solution {
 
 	public static void main(String[] args) {
 		int [][] arr1 = {{1,3},{2,6},{8,10},{15,18}};
+		char[] c = {'0','s','u'};
 		
+		System.out.println(String.valueOf(c));
+		String.valueOf(c).trim();
 		System.out.println(Solution.merge(arr1));
 	}
 }
